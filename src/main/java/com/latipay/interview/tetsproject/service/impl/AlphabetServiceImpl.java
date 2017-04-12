@@ -46,7 +46,7 @@ public class AlphabetServiceImpl implements AlphabetService {
 			
 			//Frequency Analying
 			Set<Character> alphabetsSet = alphabetsMap.keySet();
-			Iterator iter = alphabetsSet.iterator();
+			Iterator<Character> iter = alphabetsSet.iterator();
 			Integer frequency = 0;
 			//Character frequentAlphabet = new Character(' ');  
 			List<Character> frequentAlphabet = new ArrayList<Character>();
